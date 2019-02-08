@@ -10,6 +10,7 @@
 </head>
 <body>
  <?php
+//connection a la base de donnée
 try
 {
 	$dsn = 'mysql:dbname=gestionparc;host=localhost;port=3307;charset=utf8';

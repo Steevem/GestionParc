@@ -9,16 +9,18 @@
     <script src="main.js"></script>
 </head>
 <body>
+<!-- formulaire -->
 <form method="post" action="generate_datas.php">
- 
  <p>
- 
+ <!--champ nom utilisateur-->
        <label for="nom_utilisateur">Votre nom :</label>
        <input type="text" name="nom_utilisateur"/>
        <br><br>
+<!--champ prenom utilisateur-->
        <label for="prenom_utilisateur">Votre prenom :</label>
        <input type="text" name="prenom_utilisateur"/>
        <br><br>
+<!--champ id local entre 1 et 10-->
        <label for="id_local">Dans quelle local êtes vous</label><br />
        <select name="id_local">
            <option value="1">1</option>
@@ -34,6 +36,7 @@
        </select>
        <br>
        <br>
+<!--Bouton pour valider-->
        <input type="submit" value="Valider" />
 
  </p>

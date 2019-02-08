@@ -9,6 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
+<!-- pour afficher le menus menus avec un include -->
 <?php include 'nav.php' ?>
 </body>
 </html>
